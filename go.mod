@@ -1,6 +1,7 @@
 module github.com/uQUIC/utls
 
 go 1.22.0
+toolchain go1.23.6
 
 retract (
 	v1.4.1 // #218
@@ -11,9 +12,9 @@ require (
 	github.com/andybalholm/brotli v1.1.1
 	github.com/cloudflare/circl v1.6.0
 	github.com/klauspost/compress v1.18.0
-	golang.org/x/crypto v0.31.0
+	golang.org/x/crypto v0.34.0
 	golang.org/x/net v0.32.0
-	golang.org/x/sys v0.28.0
+	golang.org/x/sys v0.30.0
 )
 
-require golang.org/x/text v0.21.0 // indirect
+require golang.org/x/text v0.22.0 // indirect
